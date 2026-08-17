@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+        font-family: 'Singsong';
+        src: url('fonts/Singsong.otf') format('opentype'),
+        url('fonts/Lover.ttf') format('trutype');
+        font-weight: normal;
+        font-style: normal;
+        } 
+
+            /* 
+            tipos de format ()
+            - opentype (otf)
+            - trutype (tft)
+            - embedded - aat (apple advanced typography)
+            -svg
+
+            
+            */ 
+
+        body{
+            font-family: 'Arial', sans-serif;
+        }
+        h1{
+            font-family: 'Singsong', sans-serif;
+        }
+      
+    </style>
+</head>
+<body>
+    
+    <h1>Título</h1>
+    <p>
+        Parágrafo, lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit.
+    </p>
+
+
+
+
+</body>
+</html>
