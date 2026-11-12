@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+
+
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+       th,tr,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    
+        th{
+            background-color: #504f4f;
+            color: #FFFF;
+        }
+
+        col.cnome{
+            background-color: #f70404;
+        }
+        col.csexo{
+            background-color: #f7f704;
+        }
+        col.cidade{
+            background-color: #04f704;
+        }
+        col.cprofissao{
+            background-color: #04f7f7;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro de Clientes</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>Feminino</td>
+            <td>30</td>
+            <td>Designer</td>
+        </tr>
+
+
+        <tr>
+            <td>Pedro</td>
+            <td>Masculino</td>
+            <td>28</td>
+            <td>Engenheiro</td>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Lucas</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Médico</td>
+        </tr>
+
+        <tr>
+            <td>Carla</td>
+            <td>Feminino</td>
+            <td>27</td>
+            <td>Advogada</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
